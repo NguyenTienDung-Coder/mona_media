@@ -1,0 +1,393 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.top-row {
+    background-color: #353535;
+    display: flex;
+    width: 100%;
+    height: 30px;
+}
+
+.top-left {
+    display: flex;
+    margin: auto;
+    height: 30px;
+}
+
+.ti-facebook{
+    color: #fff;
+    font-size: 10px;
+    padding-right: 7px;
+    padding-top: 7px;
+}
+.ti-facebook:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.ti-google:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.ti-google{
+    color: #fff;
+    font-size: 10px;
+    padding-top: 7px;
+    padding-right: 10px;
+}
+.top-right {
+    display: flex;
+    float: right;
+    margin: auto;
+    height: 30px;
+}
+.ti-search{
+    font-weight: 600;
+    color: #fff;
+}
+.ti-shopping-cart{
+    font-weight: 600;
+    color: #fff;
+}
+
+p{
+    padding: 5px 7px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.top-row .top-left a, .top-row .top-right a{
+    text-decoration: none;
+    color: white;
+}
+
+.top-row .top-left a:hover, .top-row .top-right a:hover {
+    color: red;
+}
+
+p.hotline {
+    color: white;
+}
+
+/* ----------------------------- */
+.header{
+    display: flex;
+    width: 100%;
+    background-color: black;
+    height: 70px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.logo{
+    width: 200px;
+    margin: auto;
+}
+.logo-mona{
+    width: 96px;
+    height: 56px;
+    padding: 7px 0px;
+}
+.menu{
+    margin: auto;
+}
+ul.menu-list{
+    display: flex;
+}
+
+ul.menu-list li a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0px 15px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+ul.menu-list li{
+    list-style: none;
+}
+
+ul.menu-list li a:hover{
+    background-color: red;
+}
+/* ---------------------------------- */
+.slide{
+    height: 709px;
+}
+
+.btn-slide{
+    text-transform: uppercase;
+    color: #353535;
+    background-color: #ffffff;
+    width: 95px;
+    padding: 5px 10px;
+    font-size: 11px;
+}
+.mona-media{
+    font-size: 47px;
+    font-weight: 500;
+    width: 485px;
+}
+
+.btn-add{
+    width: 121px;
+    background-color: red;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 7px 16px;
+}
+
+.btn-add:hover{
+    opacity: 0.8;
+    cursor: pointer;
+
+}
+
+.btn-slide:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.block-btn{
+    width: 923px;
+    height: 160px;
+}
+.d-md-block{
+    padding-bottom: 100px;
+}
+/* ------------------------------ */
+
+.sp {
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+}
+.content{
+    width: 100%;
+    padding-top: 30px;
+    background-color: #f1e0e0;
+}
+.content-list{
+    width: 1220px;
+    margin: auto;
+}
+.menu-sp{
+    display: flex;
+    margin: auto;
+    width: 1200px;
+    height: 36px;
+    justify-content: center;
+}
+.name-product{
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #111111D9;
+    font-weight: 600;
+    width: 160px;
+}
+
+.information-product{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #1c1c1c;   
+    
+}
+.information-product1{
+    font-size: 14px;
+    color: #1c1c1c; 
+    font-weight: 600;
+}
+.mini-product{
+    width: 225px;
+    margin: auto;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 1px #AAA;
+}
+
+.content-list-product{
+    display: grid;
+    padding-top: 50px;
+    grid-template-columns: auto auto auto;
+    width: 1200px;
+    margin: auto;
+}
+
+.list-male {
+    width: 388px;
+    height: 650px;
+}
+
+  
+/* ------------------------------------- */
+.content-cty{
+    padding-top: 50px;
+}
+
+.letter{
+    padding-bottom: 40px;
+}
+.content-news{
+    width: 1220px;
+    padding-top: 50px;
+    margin: auto;
+}
+.news-highlights{
+    width: 380px;
+    height: 450px;
+    background-color: #fff;
+    margin-left: 20px;
+}
+.content-news-and-img{
+    display: flex;
+}
+
+a.view-news{
+    text-decoration: none;
+
+}
+
+.content-relative{
+    background-color: rgb(58, 57, 57);
+    height: 315px;
+}
+
+.footer{
+    background-color: rgb(41, 41, 41);
+    height: 380px;
+}
+.footer-on{
+    display: flex;
+    width: 1220px;
+    margin: auto;
+}
+.detail{
+    width: 300px;
+    font-size: 16px;
+    padding-top: 50px;
+    color: #ffffff;
+}
+p.footer-letter{
+    font-weight: 600;
+    padding-bottom: 13px;
+}
+
+.copy-right{    
+    background-color: black;
+    height: 23px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+
+/* Chatbox */
+
+.nut-mo-chatbox {
+  cursor: pointer;
+  position: fixed;
+  top: 300px;
+  right: 10px;
+}
+
+.Chatbox {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+.form-container textarea {
+  width: 100%;
+  padding: 5px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 100px;
+}
+
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+.form-container .nut-dong-chatbox {
+  background-color: red;
+}
+
+.form-container .btn:hover, .nut-mo-chatbox:hover {
+  opacity: 1;
+}
+
+/* Begin slide product */
+
+.slider-product{
+    width: 1200px;
+    margin: auto;
+    padding-top: 21px;
+    padding-right: -16px;
+}
+
+.product-one{
+    width: 224px !important;
+    height: 344px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 2px #aaaaaa;
+
+    
+}
+.inf-product{
+    width: 224px;
+}
+
+/* End slide product */
+
+
+
+
+/* -------------------------- */
+.button-footer{
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-color: red;
+
+}
+
+.button-footer:hover{
+    background-color: red;
+    opacity: 0.8;
+    border-color: red;
+}
+
+
+/* ------------------------------ */
